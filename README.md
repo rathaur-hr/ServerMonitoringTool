@@ -88,7 +88,7 @@ ssh ec2-user@your-public-ip
 
 ```bash
 git clone https://github.com/your-username/ServerMonitoringToo.git
-cd linux-monitoring-tool
+cd ServerMonitoringTool
 ```
 
 ### 4️⃣ Install Dependencies
@@ -105,7 +105,7 @@ pip3 install -r requirements.txt
 CPU_THRESHOLD = 80
 MEMORY_THRESHOLD = 75
 
-SERVICES = ["nginx", "ssh"]
+SERVICES = ["nginx"]
 
 EMAIL_SENDER = "your-email@example.com"
 EMAIL_RECEIVER = "receiver@example.com"
@@ -133,8 +133,7 @@ Add:
 
 The system sends:
 
-* 🚨 **Alert Emails** → When thresholds are exceeded
-* 📊 **Status Reports** → Periodically (optional)
+* 🚨 **Alert Emails & Health Reports**
 
 ### Example Triggers
 

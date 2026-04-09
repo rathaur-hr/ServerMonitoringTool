@@ -4,7 +4,7 @@
 
 A lightweight, agentless server monitoring tool built using Python and deployed on **Amazon Web Services (AWS)**.
 
-This project monitors key Linux system metrics such as CPU usage, memory utilization, uptime, and service health. It automatically sends email alerts using AWS SES in Every 5 minutes.
+This project monitors key Linux system metrics such as CPU usage, memory utilization, uptime, and service health. It automatically sends email alerts using AWS SES in Every One hour.
 
 Designed to simulate real-world **Monitoring and Alerting systems**.
 
@@ -124,7 +124,7 @@ crontab -e
 Add:
 
 ```bash
-*/5 * * * * /usr/bin/python3 /path/to/healthcheck.py
+0 * * * * /usr/bin/python3 /path/to/healthcheck.py
 ```
 
 ---

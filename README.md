@@ -87,7 +87,7 @@ ssh ec2-user@your-public-ip
 ### 3️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/ServerMonitoringToo.git
+git clone https://github.com/your-username/ServerMonitoringTool.git
 cd ServerMonitoringTool
 ```
 
@@ -103,8 +103,8 @@ pip3 install -r requirements.txt
 
 ```python
 CPU_THRESHOLD = 80
-MEMORY_THRESHOLD = 75
-
+MEMORY_THRESHOLD = 85
+Disk Threshold = 85
 SERVICES = ["nginx"]
 
 EMAIL_SENDER = "your-email@example.com"
@@ -135,35 +135,22 @@ The system sends:
 
 * 🚨 **Alert Emails & Health Reports**
 
-### Example Triggers
-
-* CPU usage > 80%
-* Memory usage > 75%
-* Service failure
-
----
-
-## 📸 Sample Alert
-
 ```
-🚨 ALERT: High CPU Usage
+CRITICAL: Server Health Alert
+Today, 12:40 pm •
+Time: 2026-04-09 12:40:02
 
-Server: ip-172-31-xx
-CPU Usage: 87%
-Threshold: 80%
-Time: 2026-04-09 12:30:00
-```
+Issues Detected:
+CPU usage high: 96.0%
 
----
-
-## 🔥 Future Enhancements
-
-* 📊 Web dashboard using Flask or FastAPI
-* 📈 Graph-based monitoring (CPU/Memory trends)
-* 🌐 Multi-server monitoring via SSH
-* 🗄️ Store metrics in database (SQLite/DynamoDB)
-* 🔔 Slack/Telegram integration for alerts
-
+Full Server Status:
+CPU Usage: 96.0%
+Memory Usage: 369MB / 961MB (38.5%)
+Disk Usage:
+/: 22.4% used
+/boot/efi: 12.9% used
+Service (nginx): active
+Last Reboot Time: 2026-04-09 12:36:05
 ---
 
 ## 🧠 Learning Outcomes
@@ -179,12 +166,6 @@ Time: 2026-04-09 12:30:00
 ## 👨‍💻 Author
 
 **Harshit Rathaur**
-
----
-
-## ⭐ Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 

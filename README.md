@@ -4,9 +4,9 @@
 
 A lightweight, agentless server monitoring tool built using Python and deployed on **Amazon Web Services (AWS)**.
 
-This project monitors key Linux system metrics such as CPU usage, memory utilization, uptime, and service health. It automatically sends email alerts using AWS SES when predefined thresholds are exceeded.
+This project monitors key Linux system metrics such as CPU usage, memory utilization, uptime, and service health. It automatically sends email alerts using AWS SES in Every 5 minutes.
 
-Designed to simulate real-world **DevOps monitoring and alerting systems**.
+Designed to simulate real-world **Monitoring and Alerting systems**.
 
 ---
 

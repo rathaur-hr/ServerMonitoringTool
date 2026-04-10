@@ -115,7 +115,7 @@ EMAIL_RECEIVER = "receiver@example.com"
 
 ## ⏰ Automation (Cron Job)
 
-Set up a cron job to run every 5 minutes:
+Set up a cron job to run every one hour:
 
 ```bash
 crontab -e

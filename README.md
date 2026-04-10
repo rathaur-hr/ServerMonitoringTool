@@ -36,9 +36,9 @@ Metrics Collection (psutil, subprocess)
    ↓
 Threshold Evaluation
    ↓
-Email Alerts (AWS SES)
+Cron Job (Every 1 hour)
    ↓
-Cron Job (Every 5 Minutes)
+Email Alerts (AWS SES)
 ```
 
 ---

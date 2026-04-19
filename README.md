@@ -162,13 +162,14 @@ Last Reboot Time: 2026-04-09 12:36:05
 * Alerting and notification systems
 
 ---
-
+```
 ## 👨‍💻 Author
 
 **Harshit Rathaur**
-
+```
 ---
-
+```
 ## 💡 Acknowledgements
 
 Inspired by real-world DevOps monitoring tools and SRE practices.
+```
